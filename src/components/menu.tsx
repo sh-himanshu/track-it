@@ -31,7 +31,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 
-export function DropdownMenuDemo() {
+const Menu = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -119,4 +119,6 @@ export function DropdownMenuDemo() {
       </DropdownMenuContent>
     </DropdownMenu>
   );
-}
+};
+
+export default Menu;
